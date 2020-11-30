@@ -1,3 +1,3 @@
 # Outlinea
 
-## R markdown blog with distill
+## R markdown blog outline file
