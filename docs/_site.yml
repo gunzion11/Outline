@@ -1,0 +1,23 @@
+name: "Rhub"
+title: "Data Mining"
+favicon: images/favicon.png
+base_url: https://Ljwook92.github.io/Outline
+repository_url: https://github.com/Ljwook92/Outline
+google_analytics: "G-RE46DP2X3F"
+creative_commons: CC BY
+output_dir: "."
+navbar:
+  logo:
+    image: images/logo.png
+    href: https://Ljwook92.github.io/Rhub
+  source_url: true   
+  right:
+    - text: "Home"
+      href: index.html  
+    - text: "About"
+      href: about.html
+output:
+  distill::distill_article:
+    css: styles.css
+    highlight: rstudio
+    toc: true

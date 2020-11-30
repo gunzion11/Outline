@@ -1,0 +1,16 @@
+-title: R blog with distill-
+
+
+Getting Started
+
+Web publishing format here:
+
+https://ljwook92.github.io/Rhub/
+
+
+
+
+
+
+
+
