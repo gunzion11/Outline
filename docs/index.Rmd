@@ -3,7 +3,7 @@ title: "Welcom to Rblog"
 description: |
   Welcome to the website. I hope you enjoy it!
   
-citation_url: https://ljwook92.github.io/Outline
+citation_url: https://gunzion11.github.io/Outline
 link-citations: true
 output:
   distill::distill_article:
