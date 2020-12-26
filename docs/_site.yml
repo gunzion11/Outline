@@ -9,7 +9,7 @@ output_dir: "."
 navbar:
   logo:
     image: images/logo.png
-    href: https://gunzion11.github.io/Rhub
+    href: https://gunzion11.github.io/Outline
   source_url: true   
   right:
     - text: "Home"
