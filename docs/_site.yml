@@ -1,5 +1,5 @@
 name: "Rhub"
-title: "Data Mining"
+title: "Data Blog"
 favicon: images/favicon.png
 base_url: https://gunzion11.github.io/Outline
 repository_url: https://github.com/gunzion11/Outline
@@ -16,6 +16,8 @@ navbar:
       href: index.html  
     - text: "About"
       href: about.html
+    - text: "Show"
+      href: index.html
 output:
   distill::distill_article:
     css: styles.css
