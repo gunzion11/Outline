@@ -2,6 +2,13 @@
 title: "About this site"
 description: |
   Everyone can learn R here.
+  
+citation_url: https://gunzion11.github.io/Outline
+link-citations: true
+output:
+  distill::distill_article:
+    toc: true
+site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}

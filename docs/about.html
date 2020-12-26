@@ -19,7 +19,7 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Data Mining: About this site</title>
+  <title>Data Blog: About this site</title>
   
   <meta property="description" itemprop="description" content="Everyone can learn R here."/>
   
@@ -28,22 +28,22 @@
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Data Mining: About this site"/>
+  <meta property="og:title" content="Data Blog: About this site"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Everyone can learn R here."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Data Mining"/>
+  <meta property="og:site_name" content="Data Blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Data Mining: About this site"/>
+  <meta property="twitter:title" content="Data Blog: About this site"/>
   <meta property="twitter:description" content="Everyone can learn R here."/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Everyone can learn R here."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","citation_url","link-citations","output","site"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Everyone can learn R here.\n"]},{"type":"character","attributes":{},"value":["https://gunzion11.github.io/Outline"]},{"type":"logical","attributes":{},"value":[true]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc"]}},"value":[{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1274,6 +1274,13 @@
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE46DP2X3F"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RE46DP2X3F');
+  </script>
   <style type="text/css">
   .screenshot {
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -1314,26 +1321,15 @@
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Data Mining</a>
+<a class="logo" href="https://gunzion11.github.io/Outline">
+<img src="images/logo.png" alt="Logo"/>
+</a>
+<a href="index.html" class="title">Data Blog</a>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Study
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="Study.html">Data Mining</a>
-<a href="Cross-validation-and-out-of-bag.html">Cross validation and out of bag</a>
-<a href="Textmining-part2.html">Text Mining</a>
-</div>
-</div>
 <a href="about.html">About</a>
-<a href="https://github.com/Ljwook92/Rhub">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
+<a href="Show.html">Show</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -1349,36 +1345,7 @@ Study
 
 
 <div class="d-article">
-<table>
-<thead>
-<tr class="header">
-<th>Author</th>
-<th style="text-align: left;">Identity</th>
-<th>Job</th>
-<th style="text-align: center;">Major</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Jungin Seo</td>
-<td style="text-align: left;">Ph.D</td>
-<td>Professor</td>
-<td style="text-align: center;">Statistics</td>
-</tr>
-<tr class="even">
-<td>Jeongwook Lee</td>
-<td style="text-align: left;">Master</td>
-<td>Graduate Student</td>
-<td style="text-align: center;">Statistics</td>
-</tr>
-<tr class="odd">
-<td>YeongEun Jeon</td>
-<td style="text-align: left;">PhD student</td>
-<td>Graduate Student</td>
-<td style="text-align: center;">Statistics</td>
-</tr>
-</tbody>
-</table>
+<p>Hello</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -1392,9 +1359,9 @@ Study
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
 <h3 id="updates-and-corrections">Corrections</h3>
-<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/Ljwook92/Rhub/issues/new">create an issue</a> on the source repository.</p>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/gunzion11/Outline/issues/new">create an issue</a> on the source repository.</p>
 <h3 id="reuse">Reuse</h3>
-<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/Ljwook92/Rhub">https://github.com/Ljwook92/Rhub</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/gunzion11/Outline">https://github.com/gunzion11/Outline</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
